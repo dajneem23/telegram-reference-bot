@@ -1,0 +1,36 @@
+{
+	"compilerOptions": {
+		"target": "ES2020",
+		"module": "CommonJS",
+		"outDir": "./dist",
+		"rootDir": "./src",
+		"strict": true,
+		"esModuleInterop": true,
+		"moduleResolution": "node",
+		"skipLibCheck": true,
+		"resolveJsonModule": true,
+		"experimentalDecorators": true,
+		"sourceMap": true,
+		"pretty": true,
+		"forceConsistentCasingInFileNames": true,
+		"noImplicitAny": true,
+		"baseUrl": "./",
+		"paths": {
+			"@/*": [
+				"src/*"
+			]
+		},
+		"lib": [
+			"ES2020",
+			"DOM"
+		],
+		"types": []
+	},
+	"include": [
+		"src"
+	],
+	"exclude": [
+		"node_modules",
+		"dist"
+	]
+}
